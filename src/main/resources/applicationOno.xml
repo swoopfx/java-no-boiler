@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="muClass" class="com.kiel.ono.Muclass">
+        <property name="message" value="Welcome t Nigeria" />
+    </bean>
+
+    <bean id="anoClass" class="com.kiel.ono.AnoClass">
+        <constructor-arg name="heya" value="Some body said Heya" />
+        <constructor-arg name="nonono" value="Some body said Nono" />
+    </bean>
+</beans>
